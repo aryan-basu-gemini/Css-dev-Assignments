@@ -1,0 +1,50 @@
+div.static {
+    position: static;
+    border: 3px solid #da4ae3;
+}
+div.relative {
+    position: relative;
+    left: 30px;
+    border: 3px solid #da4ae3;
+}
+div.relative {
+    position: relative;
+    width: 400px;
+    height: 200px;
+    border: 3px solid #da4ae3;
+}
+
+div.absolute {
+    position: absolute;
+    top: 80px;
+    right: 0;
+    width: 200px;
+    height: 100px;
+    border: 3px solid #da4ae3;
+}
+div.sticky {
+    position: sticky;
+    top: 0;
+    padding: 5px;
+    background-color: #f7dcf9;
+    border: 2px solid #da4ae3;
+}
+div.block {
+    border: 3px solid #da4ae3;
+}
+span.inline {
+    border: 3px solid #da4ae3;
+}
+h3.hidden {
+    visibility: hidden;
+}
+div.override {
+    display: inline;
+    border: 3px solid #da4ae3;
+}
+h3.none{
+    display:none;
+}
+img {
+    float: left;
+}

@@ -1,0 +1,93 @@
+* {
+    font-family: 'Varela Round', sans-serif;
+    
+}
+body {
+    width: 100vw;
+    min-height: 100vh;
+    background-image: linear-gradient(to right top, #f2e3ff, #f3eaff, #f6f1ff, #f9f7fe, #fdfdfd);
+}
+.container {
+    width: 28%;
+    margin: auto;
+    border: 3px solid #5a01a7;
+    border-radius: 10px;
+    padding: 2rem;
+    box-shadow: 0 0 5px 5px #5a01a7;
+}
+h1{
+    text-align:center;
+   
+}
+#dob {
+    width: 160px;
+}
+
+td {
+    padding: 5px;
+}
+
+input {
+    margin-left: 0.5rem;
+    border-radius: 5px;
+    padding: 4px;
+    height: 1rem;
+}
+
+#city {
+    width: 10rem;
+    margin-left: 0.5rem;
+    height: 1.5rem;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+    #city:focus {
+        outline-color: transparent;
+        outline-style: solid;
+        box-shadow: 0 0 0 4px #5a01a7;
+        transition: 0.7s;
+    }
+
+h2 {
+    margin-left: 8rem;
+}
+
+button {
+    background-color: #0a0a23;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    min-height: 30px;
+    min-width: 120px;
+    margin-left:4rem;
+    margin-bottom:2rem;
+}
+
+    button:focus {
+        outline-color: transparent;
+        outline-style: solid;
+        box-shadow: 0 0 0 4px #5a01a7;
+        transition: 0.7s;
+    }
+
+input:focus {
+    outline-color: transparent;
+    outline-style: solid;
+    box-shadow: 0 0 0 2px #5a01a7;
+    transition: 0.7s;
+}
+
+.row {
+    display: flex;
+}
+.column{
+    width:33%;
+    margin-left:2rem;
+}
+
+
+h2{
+    margin-left:10rem;
+}

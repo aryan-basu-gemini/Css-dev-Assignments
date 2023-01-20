@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Form</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Student Registration Form</h1>
+        <div class="row">
+            <div class="column">
+                <label for="name">Name:</label>
+            </div>
+            <div class="column">
+                <input  type="text" id="name" name="name">
+       </div>
+            
+        </div>
+        <br />
+        <div class="row">
+        <div class="column">
+            <label for="phone">Phone No:</label>
+            </div>
+        <div class="column">
+            <input id="phone" name="Phone No" type="number" />
+        </div>
+        </div>
+        <br />
+        <div class="row">
+            <div class="column">
+                <label for="dob">Date of Birth:</label>
+            </div>
+            <div class="column">
+                <input id="dob" name="Date of Birth" type="date" />
+            </div>
+        </div>
+        <br />
+        <div class="row">
+            <div class="column">
+                <label for="address">Address: </label>
+            </div>
+            <div class="column">
+                <input id="address" type="text" />
+            </div>
+
+        </div>
+        <br />
+        <div class="row">
+            <div class="column">
+                <label for="gender">Gender:</label>
+            </div>
+            <div class="column">
+                <label> <input type="radio" id="gender" name="gender" value="Male" /> Male</label>
+                
+                <label> <input type="radio" id="gender" name="gender" value="Female" /> Female</label>
+            </div>
+        </div>
+        <br />
+        <div class="row">
+            <div class="column">
+                <label for="city">City: </label>
+            </div>
+            <div class="column">
+                <select id="city" name="city">
+                    <option style="padding:2px;" value="" disabled selected>Select city</option>
+                    <option value="varanasi">Varanasi</option>
+                    <option value="newdelhi">New-Delhi</option>
+                    <option value="gurgoan">Gurgoan</option>
+                    <option value="panchkula">Panchkula</option>
+                </select>
+            </div>
+        </div>
+        <br />
+        <div class="row">
+            <div class="column">
+                <label for="hobbies">Hobbies: </label>
+            </div>
+            <div class="column">
+                <label>
+                    <input name="Music" value="Music" type="checkbox" /> Music
+                </label>
+                <br />
+                <label>
+                    <input name="Sport" value="Sport" type="checkbox" /> Sport
+                </label>
+                <br />
+                <label>
+                    <input name="Reading" value="Reading" type="checkbox" /> Reading
+                </label>
+                <br />
+                <label>
+                    <input name="Drawing" value="Drawing" type="checkbox" /> Drawing
+                </label>
+                <br />
+                <label>
+                    <input name="Gaming" value="Gaming" type="checkbox" /> Gaming
+                </label>
+            </div>
+
+
+        </div>
+        <br />
+        <br />
+        <div class="row">
+            <div class="column">
+                <button>Submit</button>
+            </div>
+            <div class="column">
+                <button>Reset</button>
+            </div>
+        </div>
+
+        <div>
+            <h2>Student Records</h2>
+        </div>
+        <div class="table">
+            <table>
+                <tr>
+
+                    <th>S.No</th>
+                    <th>Name</th>
+                    <th>Phone</th>
+                    <th>Gender</th>
+                    <th>DOB</th>
+                    <th>Hobbies</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Maria Anders</td>
+                    <td>123-4-567 </td>
+                    <td> Male</td>
+                    <td>12/12/1996</td>
+                    <td>Music</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Aryan</td>
+                    <td>123-4-567 </td>
+                    <td> Male</td>
+                    <td>12/11/2001</td>
+                    <td>Sport</td>
+
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Abhishek</td>
+                    <td>123-4-567 </td>
+                    <td> Male</td>
+                    <td>12/15/2001</td>
+                    <td>Drawing</td>
+
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
